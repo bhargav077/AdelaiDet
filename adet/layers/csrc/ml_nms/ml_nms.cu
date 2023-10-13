@@ -1,7 +1,7 @@
 // Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
 #include <ATen/ATen.h>
 #include <ATen/cuda/CUDAContext.h>
-//#include <THC/THC.h>
+#include <THC/THC.h>
 #include <ATen/ceil_div.h>
 #include <THC/THCDeviceUtils.cuh>
 
